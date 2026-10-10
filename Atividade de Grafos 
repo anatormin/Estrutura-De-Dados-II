@@ -1,0 +1,102 @@
+Feitos por: 
+Giovanni Iaropoli Carneiro de Oliveira Mello
+Ana Luisa Tormin Vaz 
+Joao Pedro Guimarães
+Atividade 1:
+Respostas da Atividade 1:
+Conjunto V (Vértices): {1, 2, 3, 4, 5}
+Conjunto E (Arestas): {(1,2), (1,4), (1,5), (2,3), (3,4), (4,4)}
+Ordem: 5
+Tamanho: 6
+Laço: Aresta (4,4).
+Graus dos vértices:
+ Grau do vértice 1 = 3
+ Grau do vértice 2 = 2
+ Grau do vértice 3 = 2
+ Grau do vértice 4 = 4 (O laço conta duas vezes) Grau do vértice 5 = 1
+Atividade 2:
+Respostas da Atividade 2:
+1. Vértices adjacentes (vizinhos diretos):
+Vértice 1: {2, 4, 5}
+Vértice 2: {1, 3}
+Vértice 3: {2, 4}
+Vértice 4: {1, 3, 4} 
+Vértice 5: {1}2. Arestas incidentes:
+No vértice 1: (1,2), (1,4) e (1,5)
+No vértice 2: (1,2) e (2,3)
+No vértice 3: (2,3) e (3,4)
+No vértice 4: (1,4), (3,4) e (4,4)
+No vértice 5: (1,5)
+3. Escolha de dois vértices adjacentes e justificativa:
+ Vértices escolhidos: 1 e 2.
+ Justificativa: Eles são adjacentes porque existe uma aresta conectando os dois 
+diretamente, representada no conjunto de arestas por (1,2).
+4. Escolha de dois vértices não adjacentes e justificativa:
+ Vértices escolhidos: 2 e 5.
+ Justificativa: Eles não são adjacentes porque não existe nenhuma aresta conectando 
+os dois diretamente (não existe o par (2,5) nem (5,2) no conjunto E).
+Atividade 3:Respostas da Atividade 3:
+1. Definição de V e E:
+ V (Vértices): {João, Carolina, Maria, Marco}
+ E (Arestas): {(João, Carolina), (João, Maria), (Carolina, Maria), (Carolina, Marco)}
+2. O grafo é dirigido ou não dirigido? 
+ Resposta: É um grafo não dirigido.
+ Justificativa: A relação de amizade é mútua (recíproca). Se o João é amigo da 
+Carolina, a Carolina obrigatoriamente é amiga do João. Por isso, usamos linhas 
+simples sem setas (não há "sentido único" na amizade).
+3. Quem possui maior grau no grafo criado?
+ Resposta: A Carolina.
+ Justificativa: Ela possui o maior grau (grau 3), pois está conectada a 3 arestas 
+diferentes (é amiga do João, da Maria e do Marco).
+4. O que vértices e arestas representam neste problema?
+ Vértices: Representam as pessoas da rede (João, Carolina, Maria e Marco).
+ Arestas: Representam a relação de amizade que existe entre duas pessoas.
+Atividade 4:Respostas da Atividade 4:
+1. Definição de V e E:
+ V (Cruzamentos): {A, B, C, D}
+ E (Ruas de mão única): {(A,B), (B,C), (C,D), (D,B), (C,A)}
+2. O que vértices e arestas representam?
+ Vértices: Representam os cruzamentos das ruas.
+ Arestas: Representam as ruas em si, e as setas indicam o sentido permitido do 
+tráfego.
+3. Grau de entrada e grau de saída de um vértice:
+ Vértice escolhido: C
+ Grau de entrada: 1 (Apenas a rua que vem de B entra no cruzamento C).
+ Grau de saída: 2 (Do cruzamento C, os carros podem sair em direção a D ou em 
+direção a A).
+4. Por que um grafo não dirigido não representa adequadamente a situação?
+ Justificativa: Um grafo não dirigido (sem setas) indica que a relação é de "mão dupla". 
+Se usássemos linhas simples, um motorista não saberia a direção do tráfego e poderia 
+entrar na contramão. As setas do grafo dirigido são essenciais para mostrar 
+exatamente o sentido obrigatório de cada rua.
+Atividade 5:Respostas da Atividade 5:
+1. A ordem e tamanho de cada grafo é de 4;
+2. O grau das vértices G e H são 2;
+3. A correspondência entre os grafos G e H são de {(1,A), (2,C), (3,B), (4,D)};
+4. Todas as adjacências originais de G resultam em arestas válidas em H, 
+comprovando que a correspondência preserva a estrutura;
+5. Os grafos são isomorfos porque eles cumprem todos os pré-requisitos estruturais,
+como demonstrado na resposta 4, é possível definir uma bijeção exata que mapeia os 
+vértices de G nos vértices de H preservando todas as relações de adjacência.
+Reflexão: Não, porque dois grafos são isomorfos quando têm a mesma
+estrutura, mesmo com nomes ou desenhos diferentes. Porém é possível dois grafos 
+não isomorfos possuírem exatamente a mesma sequência de graus.
+Atividade 7:
+Respostas da Atividade 7:
+1. Identifique oito vértices:
+Os vértices escolhidos são: A, B, C, D, E, F, G e H.2. Comece pelo vértice de maior grau e adicione as arestas sem laços ou arestas 
+paralelas:
+Começamos pelo vértice H (grau 6) e o ligamos a A, C, D, E, F e G.
+Em seguida, pegamos os próximos maiores, G (grau 4) e F (grau 4), e os ligamos a D, E e 
+entre si.
+Os vértices D e E (graus 3) já atingiram suas 3 ligações no passo anterior.
+O vértice C (grau 2) já tinha 1 ligação com o H, então ligamos ao B para completar.
+Os vértices B e A (graus 1) fecham com 1 ligação cada.
+3. Registre o conjunto E das arestas que você construiu:
+E = { {A,H}, {B,C}, {C,H}, {D,F}, {D,G}, {D,H}, {E,F}, {E,G}, {E,H}, {F,G}, {F,H}, {G,H} }
+4. Calcule o grau de cada vértice e ordene os resultados:
+A=1, B=1, C=2, D=3, E=3, F=4, G=4, H=6.
+Ordem: 1, 1, 2, 3, 3, 4, 4, 6.
+5. Verifique a soma dos graus e compare com duas vezes o número de arestas:
+A soma dos graus é 24. O número de arestas é 12. Duas vezes o número de arestas (2 × 
+12) resulta em 24, confirmando que estão iguais.
